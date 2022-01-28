@@ -1,0 +1,134 @@
+*  {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: hsl(217, 54%, 11%);
+	color: aliceblue;
+	margin: auto;
+	margin-top: 8%;
+	max-width: 100vh; 
+}
+
+section {
+	background-color: hsl(216, 50%, 16%);
+	border-radius: 14px;
+	padding: 25px;
+	width: 300px;
+	margin: 20px auto;
+	box-shadow: -17px 40px hsl(216, 58%, 10%),17px 40px hsl(216, 58%, 10%), -45px 65px  hsl(218, 52%, 11%), 45px 65px  hsl(218, 52%, 11%),45px -20px  hsl(218, 52%, 11%),-45px -20px  hsl(218, 52%, 11%);
+}
+
+.pic1 {
+	width: 300px;
+	border-radius: 8px;
+	position: relative;
+}
+
+.background {
+	width: 300px;
+	height: 300px;
+	background-color: hsl(178, 100%, 50%);
+	visibility: hidden;
+	opacity: 0.5;
+	margin-top: -305px;
+	border-radius: 8px;
+}
+
+.pic2 {
+	position: absolute;
+	visibility: hidden;
+	margin-top: -180px;
+	margin-left: 127px;
+}
+
+.item:hover .pic2, item:hover .background{
+	visibility: visible;
+}
+
+.avatar {
+	border:1px, solid;
+	border-color: aliceblue;
+	border-radius: 20px;
+}
+
+.h {
+	color: hsl(178, 100%, 50%);
+	text-align: left;
+	font-family: 'Outfit', sans-serif;
+}
+
+.bloc1 {
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.line {
+	margin-bottom: 15px;
+	margin-top: 15px;
+	background-color: #2e415b;
+	height: 1px;
+	width: 100%;
+}
+
+.white {
+	font-family: 'Outfit',sans-serif;
+	margin-bottom:25px; 
+}
+
+.white:hover {
+	color: hsl(178, 100%, 50%);
+}
+
+.p1 {
+	font-family: 'Outfit', sans-serif;
+	color: hsl(215, 51%, 70%);
+}
+
+.bloc2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bloc2 div {
+	display: flex;
+}
+
+.bloc4 {
+	font-family: 'Outfit', sans-serif;
+	color: hsl(215, 51%, 70%);
+}
+
+.bloc5 {
+	display: flex;
+	align-items: center;
+}
+
+.bloc6 {
+	font-family: 'Outfit', sans-serif;
+	color: hsl(215, 51%, 70%);
+}
+
+.etherium1, .horloge {
+	margin-right: 4px;
+}
+
+.avatar {
+	margin-right: 12px;
+}
+
+.okok {
+	color: aliceblue;
+}
+
+.okok:hover {
+	color: hsl(178, 100%, 50%);
+}
+
+footer {
+	margin-top: 30px;
+	font-family: 'Outfit', sans-serif;
+	margin-bottom: 40px;
+}
